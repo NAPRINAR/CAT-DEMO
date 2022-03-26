@@ -1,0 +1,40 @@
+.sidebar{
+    background:#000;
+    max-width:300px;
+    min-height: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    min-width:300px;
+
+}
+
+.sidebar ul li {
+    color:#fff;
+    list-style-type: none;
+    padding:5px;
+    margin-bottom: 10px;
+    font-size:20px;
+    text-transform: capitalize;
+    cursor:pointer;
+    transition:0.3s ease;
+    max-width:150px;
+}
+
+.sidebar ul li:hover{
+    background: #fff;
+    color:#000;
+    transition:0.3s ease;
+    border-radius:3px;
+    text-align:center;
+
+}
+
+.active{
+    background:#fff;
+    color:#000!important;
+}
